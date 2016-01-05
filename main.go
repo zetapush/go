@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/bennyscetbun/jsongo"
+	"github.com/zetapush/go/client"
+	"github.com/zetapush/go/services"
 	"log"
 	"os"
-	"zetapush/client"
-	"zetapush/services"
 )
 
 func main() {
