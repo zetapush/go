@@ -4,11 +4,14 @@ Go client for ZetaPush
 # How to use ?
 
 ## Import Client & Services
+
+```go
 import (
   "encoding/json"
-	"github.com/zetapush/go/client"
-	"github.com/zetapush/go/services"
-	)
+  "github.com/zetapush/go/client"
+  "github.com/zetapush/go/services"
+)
+```
 
 ## Initialize a zpclient object
 
