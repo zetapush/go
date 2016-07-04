@@ -26,12 +26,15 @@ type DeviceCapabilities struct {
 }
 
 type PingRequest struct {
-	Action string `json:"action"`
+	Action    string `json:"action"`
+	Available bool   `json:"available,omitempty"`
+	Owner     string `json:"owner,omitempty"`
+	User      string `json:"user,omitempty"`
 }
 
 type DeviceAvailability struct {
 	Action    string `json:"action,omitempty"`
-	Available string `json:"available,omitempty"`
+	Available bool   `json:"available,omitempty"`
 	Uid       string `json:"uid,omitempty"`
 	Owner     string `json:"owner,omitempty"`
 	Resource  string `json:"resource,omitempty"`

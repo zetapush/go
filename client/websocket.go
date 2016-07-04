@@ -57,6 +57,7 @@ func (c *WsClient) Done() {
 func (c *WsClient) Listen() {
 	go c.listenWrite()
 	c.listenRead()
+	log.Println("End listenRead");
 }
 
 // Listen write request via chanel
